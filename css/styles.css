@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/pink_rice.png);
+	background-repeat: repeat;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.photo{
+	padding-top: 70px;
+}
+
+
+.titre{
+	text-align: center;
+	font-size: 80px;
+	color: #2D3246;
+
+}
+h1{
+	text-align: center;
+	margin-top: 200px;
+	font-size: 50px;
+	color: #2D3246;
+}
+
+.texte1{
+	margin-top: 80px;
+	color: #2D3246;
+
+}
+
+.texte{
+	margin-top: 50px;
+	color: #2D3246;
+}
+.texte3{
+	margin-top: 100px;
+	font-size: 18px;
+	color: #2D3246;
+}
+
+
+
+h2{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.menu1{
+	font-size: 20px;
+}
+
+
+/*Footer*/
+
+footer{margin-top: 30px;}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+
+/*Navigateur*/
+
+.navi{
+margin-bottom: 50px;
+margin-top: 10px;
+}
+
+a.nav-link{
+	color: #2D3246;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;}
+
+
+
+
+
+/*Bouton Back To Top*/
+
+div#page {
+max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+}
+.back-to-top {
+position: fixed;
+bottom: 2em;
+right: 0px;
+text-decoration: none;
+color: #000000;
+font-size: 12px;
+padding: 1em;
+display: none;
+}
+.back-to-top:hover {
+text-decoration: none;
+}
+.back-to-top img{
+  width: 60px;
+  opacity: .2;
+  filter: alpha(opacity=20);
+  transition: all .4s ease-out;
+  -o-transition: all .5s ease-out;
+  -moz-transition: all .4s ease-out;
+  -webkit-transition: all .4s ease-out;
+}
+
+.back-to-top img:hover {
+  text-decoration: none;
+  opacity: .9;
+}
+
+h5{
+	padding-top: 20px;
+}
+
+.button1{
+	font-family: 'Libre Baskerville', serif;
+	padding-top: 10px;
+}
